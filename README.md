@@ -78,16 +78,6 @@
 
 ---
 
-## Keyboard Shortcuts & Hotkeys
-
-| Shortcut | Action | Scope |
-| :--- | :--- | :--- |
-| **`F2`** | **Panic Key** (Toggle Floating HUD On / Off) | Browser (Any Quiz Tab) |
-| **`Ctrl + Shift + H`** | Alternative Panic Key | Browser (Any Quiz Tab) |
-| **`Ctrl + Space`** | Quick Toggle HUD Visibility | Browser (Any Quiz Tab) |
-
----
-
 ## Getting Started & Installation
 
 ### A. Running Desktop App
