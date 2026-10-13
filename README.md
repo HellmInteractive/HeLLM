@@ -37,38 +37,6 @@
 
 ---
 
-## Overview & Architecture
-
-HeLLM employs a **3-tier decoupled architecture** designed to protect API credentials, ensure sub-150ms response times, and isolate client applications:
-
-```
-┌────────────────────────────────────────────────────────┐
-│             Chromium Browser (Brave / Chrome)          │
-│   • Stealth Focus Faker (Anti-Tab Switch Blocker)      │
-│   • In-Page Floating HUD (Draggable, Opacity Slider)   │
-│   • Vision OCR Area Cropper & GForm Auto-Filler        │
-└─────────────────────────▲──────────────────────────────┘
-                          │ Local IPC Socket (HTTP / JSON)
-                          │ Port: 127.0.0.1:8765
-┌─────────────────────────▼──────────────────────────────┐
-│             HeLLM.exe Desktop Core (C++ / DX11)        │
-│   • Dear ImGui Modern Monochrome Interface             │
-│   • KeyAuth Cryptographic HWID License Gate            │
-│   • Global Analytics & AI Leaderboard Engine           │
-│   • Ephemeral Dynamic Session Token Generator          │
-└─────────────────────────▲──────────────────────────────┘
-                          │ HTTPS / TLS (Encrypted)
-                          │ Zero Upstream Keys on Client
-┌─────────────────────────▼──────────────────────────────┐
-│             Vercel Serverless Cloud Backend            │
-│   • Sliding-Window Rate Limiter & Cooldown Guard       │
-│   • Dynamic Model Evaluated Probabilistic Confidence   │
-│   • Upstream AI (Gemini 3.7, GLM-4.7, DeepSeek R1)     │
-└────────────────────────────────────────────────────────┘
-```
-
----
-
 ## Key Features
 
 ### 1. Pure Native C++ Desktop Application
@@ -142,5 +110,5 @@ HeLLM employs a **3-tier decoupled architecture** designed to protect API creden
 > This software is intended strictly for **educational, academic research, and accessibility assistance purposes**. The developers do not encourage or condone academic dishonesty or misuse on proctored examinations. Use responsibly in accordance with your institution's guidelines and terms of service.
 
 <div align="center">
-  <sub>Built with ❤️ by Infernostudios.</sub>
+  <sub>Built with ❤️ by HeLLM Interactive.</sub>
 </div>
