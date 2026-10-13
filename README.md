@@ -7,9 +7,6 @@
 [![C++20](https://img.shields.io/badge/Language-C%2B%2B20-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](https://isocpp.org/)
 [![DirectX 11](https://img.shields.io/badge/Graphics-DirectX%2011-0078D7?style=for-the-badge&logo=windows&logoColor=white)](https://learn.microsoft.com/en-us/windows/win32/direct3d11/direct3d-11-graphics)
 [![Dear ImGui](https://img.shields.io/badge/GUI-Dear%20ImGui-grey?style=for-the-badge)](https://github.com/ocornut/imgui)
-[![Manifest V3](https://img.shields.io/badge/Extension-Manifest%20V3-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://developer.chrome.com/docs/extensions/mv3/)
-[![Vercel Serverless](https://img.shields.io/badge/Backend-Vercel%20Node.js-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
-[![KeyAuth](https://img.shields.io/badge/Security-KeyAuth%20HWID-5865F2?style=for-the-badge)](https://keyauth.cc/)
 
 <p align="center">
   <b>HeLLM</b> is an enterprise-grade, ultra-low latency AI-powered exam and quiz assistant designed for maximum accuracy, stealth, and cross-platform flexibility.
@@ -23,17 +20,11 @@
 - [Overview & Architecture](#-overview--architecture)
 - [Key Features](#-key-features)
   - [1. Pure Native C++ Desktop Application](#1-pure-native-c-desktop-application)
-  - [2. Stealth Chromium Browser Extension](#2-stealth-chromium-browser-extension)
-  - [3. Cloud Serverless AI Pipeline](#3-cloud-serverless-ai-pipeline)
-  - [4. Global Analytics & AI Leaderboard](#4-global-analytics--ai-leaderboard)
-- [Supported Platforms](#-supported-platforms)
-- [Security & Anti-Abuse](#-security--anti-abuse)
-- [Keyboard Shortcuts & Hotkeys](#-keyboard-shortcuts--hotkeys)
+  - [Supported Platforms](#-supported-platforms)
 - [Getting Started & Installation](#-getting-started--installation)
   - [A. Running Desktop App](#a-running-desktop-app)
   - [B. Installing Browser Extension](#b-installing-browser-extension)
-  - [C. Deploying Vercel Backend](#c-deploying-vercel-backend)
-- [Disclaimer](#-disclaimer)
+- - [Disclaimer](#-disclaimer)
 
 ---
 
